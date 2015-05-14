@@ -13,6 +13,9 @@ $(function() {
     });
 });
 
+        // Initialize WOW.js Scrolling Animations
+    new WOW().init();
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'

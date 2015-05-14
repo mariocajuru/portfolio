@@ -16,6 +16,9 @@
 
     <!-- CSS customizado -->
     <link href="css/style.css" rel="stylesheet">
+    
+     <!-- Plugin animação -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -62,7 +65,7 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Histórico</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -82,9 +85,9 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Bem vindo ao meu portfólio!</div>
-                <div class="intro-heading"><blockquote class="blockquote-reverse">
+                <div class="intro-heading"><blockquote class="blockquote-reverse wow bounceIn">
   <p>Design é função, não forma.<small><cite title="Steven Paul Jobs (São Francisco, Califórnia, 24 de fevereiro de 1955 — Palo Alto, Califórnia, 5 de outubro de 2011)">Steve Jobs</cite></small></p></blockquote></div>
-                <a href="#services" class="page-scroll btn btn-xl">Mais informações</a>
+                <a href="#services" class="page-scroll btn btn-xl wow bounceIn">Mais informações <i class="fa fa-angle-double-down wow bounceIn"></i></a>
             </div>
         </div>
     </header>
@@ -101,7 +104,7 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary"></i>
                         <i style="color:#FFFFFF; text-shadow:#5C4283 -2px -2px 2px" class="fa fa-bold fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Bootstrap</h4>
@@ -109,7 +112,7 @@
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary"></i>
                         <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Melhores ferramentas do mercado</h4>
@@ -117,7 +120,7 @@
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary"></i>
                         <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Qualidade</h4>
@@ -147,7 +150,7 @@
                         </div>
                         <img src="img/portfolio/locacaoRedimensionada.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Gerenciamento imobiliário.</h4>
                         <p class="text-muted">Locação e venda</p>
                     </div>
@@ -161,7 +164,7 @@
                         </div>
                         <img src="img/portfolio/agendaRedimensionada.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Controle de clientes</h4>
                         <p class="text-muted">Versão, agenda e satisfação</p>
                     </div>
@@ -175,7 +178,7 @@
                         </div>
                         <img src="img/portfolio/projeto%20em%20construcao.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Spring e Angular</h4>
                         <p class="text-muted" style="color:red">Projeto em construção</p>
                     </div>
@@ -189,7 +192,7 @@
                         </div>
                         <img src="img/portfolio/gestao.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Gestão academica</h4>
                          <p class="text-muted" style="color:red">Projeto em construção</p>
                     </div>
@@ -203,7 +206,7 @@
                         </div>
                         <img src="img/portfolio/spring.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Spring Framework</h4>
                         <p class="text-muted">Projeto completo com <abbr title="Projeto utilizando Spring Framework em fase de estudo" class="initialism">Spring</abbr></p>
                     </div>
@@ -217,7 +220,7 @@
                         </div>
                         <img src="img/portfolio/outrosMenor.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption wow bounceIn">
                         <h4>Outros</h4>
                         <p class="text-muted"><abbr title="Outros projetos em fase de estudo" class="initialism">Outros </abbr>projetos</p>
                     </div>
@@ -226,13 +229,13 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Histórico -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Histórico</h2>
+                    <h3 class="section-subheading text-muted">Histórico profissional</h3>
                 </div>
             </div>
             <div class="row">
@@ -240,67 +243,75 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/renovar.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4><abbr title="Outubro de 2013 – Maio de 2015" class="initialism">2013-2015</abbr></h4>
+                                    <h4 class="subheading" >Renovar Sistemas Ltda</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"><strong>Desenvolvedor java web</strong> frontend e backend, responsável pelo projeto web Renovar Sistemas Locação de Imóveis junto a uma importante empresa de locação e venda de imóveis. Tal projeto é responsável por toda atividade administrativa envolvida na locação e venda de imóveis utilizando as ferramentas: Apache TomCat, SQL Server, Spring Security, Hibernate, Hibernate Envers, Power Designer, relatórios Ireport, Json, TortoiseSVN, Primefaces, HTML, CSS, Bootstrap, JQuery, WebServices, Ajax, JavaServer Faces (JSF), Facelets, MVC, Maven e Jenkins.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/carmo_do_cajuru.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4><abbr title="Julho de 2009 – Outubro de 2013" class="initialism">2009-20013</abbr></h4>
+                                    <h4 class="subheading">Prefeitura Municipal de Carmo do Cajuru-MG</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"><strong>Coordenador </strong>e professor do curso de informática no espaço TeleCentro e auxiliar na assistência social</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/semad.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4><abbr title="Junho de 2008 – Março de 2009" class="initialism">2008-2009<abbr</h4>
+                                    <h4 class="subheading">SEMAD - Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"><strong>Auxiliar de informática</strong>, digitalizador de documentos, suporte técnico ao usuário e administrador de rede.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/carmocred.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4><abbr title="Novembro de 2007 – Maio de 2008" class="initialism">2007-2008</abbr></h4>
+                                    <h4 class="subheading">SICOOB Carmocredi-Cooperativa de Credito de Carmo do Cajuru Ltda</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"><strong>Estágio</strong> como escriturário de rotinas bancaria e administrativas.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                            <li>
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <img class="img-circle img-responsive" src="img/about/Banco_do_Brasil.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4><abbr title="Abril de 2005 – Dezembro de 2007" class="initialism">2005-2007</abbr></h4>
+                                    <h4 class="subheading">Banco do Brasil S.A</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><strong>Estágio</strong> como escriturário de rotinas bancaria e administrativas e ajuda aos clientes.</p>
+                                </div>
                             </div>
                         </li>
+                       
                     </ul>
                 </div>
             </div>
@@ -669,6 +680,13 @@
 
     <!-- JavaScript Customizado-->
     <script src="js/main.js"></script>
+
+   <!-- Plugin JavaScript -->
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
 
 </body>
 
