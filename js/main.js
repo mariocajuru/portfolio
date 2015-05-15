@@ -14,7 +14,7 @@ $(function() {
 });
 
         // Initialize WOW.js Scrolling Animations
-    new WOW().init();
+    //new WOW().init();
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
